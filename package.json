@@ -1,0 +1,17 @@
+{
+  "name": "autocuddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "luciizme",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "form-data": "^4.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
