@@ -31,7 +31,7 @@ let id = [
 //
 async function cuddling(id, value){
 var form = new FormData();
-var hentaivn_cookie = process.env.cookie;
+var hentaivn_cookie = '_ga=GA1.1.1944780186.1644012812; viewz1=0; user_id=342221; user_pass=-%E2%98%89%E2%9D%A5c--ec%E2%98%86e%40%E0%BF%90e%E2%98%89%E2%99%A5%E2%98%85%DB%B5%E2%9C%BFc%DB%B5%E2%98%89%E2%98%86-%E2%99%A5e%DB%B5_%E2%98%86e%E2%9C%BF%E2%98%86%E0%BF%90; user_name=Bao_Ngoc; user_ava=http%3A%2F%2Fanh.upanhmoi.net%2Fimages%2F1200%2F2022%2F01%2F19%2F1642608068-nguoiyeubao.png; capbac=7; user_nhom=89; user_upload=0; _ga_KWGNBG0QW0=GS1.1.1645214601.91.1.1645218951.0';
         form.append(id, value);
             res = await axios({
                     method: "post",
