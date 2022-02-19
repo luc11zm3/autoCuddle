@@ -41,4 +41,3 @@ var hentaivn_cookie = process.env.cookie;
                 }); 
         console.log(`Completed ${value} for ${id}`);
         }
-
